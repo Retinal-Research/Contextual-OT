@@ -3,8 +3,7 @@ Retinal fundus photography offers a non-invasive way to diagnose and monitor a v
 Experimental results on a large-scale dataset demonstrate the superiority of the proposed method over several state-of-the-art supervised and unsupervised methods in terms of signal-to-noise ratio, structural similarity index, as well as two downstream tasks. By enhancing image quality and performance in downstream tasks, the proposed method shows potential for advancing the utility of retinal fundus image-driven pipelines in routine clinical practice. 
 
 ## Pictorial representation of our work
-![image](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/899a2edb-bb51-4d98-a083-8ce9b6df6659)
-
+![Contextual OT figure](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/00eab6c6-0a15-493d-bff4-ff0f63476bac)
 
 ## Installing modules for Contextual loss
 
