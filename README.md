@@ -23,6 +23,10 @@ To get a local copy up and running follow these simple steps.
 1. Clone the repo
    ```sh
    git clone https://github.com/NUS-HPC-AI-Lab/Neural-Network-Diffusion.git
+
+2. Create a Python Environment and install the required libraries by running
+   ```sh
+   pip install -r requirements.txt 
    
 ## Visual results
 
