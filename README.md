@@ -5,7 +5,7 @@ Experimental results on a large-scale dataset demonstrate the superiority of the
 ## Data Pre-Processing 
 
 To train our model, we used the pubicly available EyeQ dataset, which can be downloaded from [here](https://www.kaggle.com/c/diabetic-retinopathy-detection). We adapted the degradation technique mentioned in "Modeling and Enhancing Low-quality Retinal Fundus Images" [IEEE TMI, 2021]. Code for degradation is available [here](https://github.com/HzFu/EyeQ?tab=readme-ov-file).
-## Pictorial representation of our work
+## Pictorial representation of our approach
 ![Contextual OT figure](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/00eab6c6-0a15-493d-bff4-ff0f63476bac)
 
 ## Installing modules for Contextual loss
