@@ -4,7 +4,7 @@ Experimental results on a large-scale dataset demonstrate the superiority of the
 
 ## Data Pre-Processing 
 
-To train our model, we used the pubicly available EyeQ dataset, which can be downloaded from [here](https://www.kaggle.com/c/diabetic-retinopathy-detection). We adapted the degradation technique mentioned in "Modeling and Enhancing Low-quality Retinal Fundus Images" [IEEE TMI, 2021]. Code for degradation is available [here](https://github.com/HzFu/EyeQ?tab=readme-ov-file)
+To train our model, we used the pubicly available EyeQ dataset, which can be downloaded from [here](https://www.kaggle.com/c/diabetic-retinopathy-detection). We adapted the degradation technique mentioned in "Modeling and Enhancing Low-quality Retinal Fundus Images" [IEEE TMI, 2021]. Code for degradation is available [here](https://github.com/HzFu/EyeQ?tab=readme-ov-file).
 ## Pictorial representation of our work
 ![Contextual OT figure](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/00eab6c6-0a15-493d-bff4-ff0f63476bac)
 
@@ -25,12 +25,13 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/NUS-HPC-AI-Lab/Neural-Network-Diffusion.git
+   git clone 
 
 2. Create a Python Environment and install the required libraries by running
    ```sh
-   pip install -r requirements.txt 
-   
+   pip install -r requirements.txt
+
+
 ## Visual results
 
 ![image](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/35fea2ab-2701-46c9-b149-96b6b0151957)
