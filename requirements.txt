@@ -1,0 +1,6 @@
+albumentations==1.0.3
+opencv-python==4.5.4.60
+Pillow==8.4.0
+scipy==1.7.3
+torch==1.10.0
+tqdm==4.62.3
