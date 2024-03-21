@@ -9,6 +9,21 @@ Experimental results on a large-scale dataset demonstrate the superiority of the
 
 This work is inspired from The Contextual Loss for Image Transformation with Non-Aligned Data [ECCV 2018].Please clone the repo https://github.com/S-aiueo32/contextual_loss_pytorch to use the pretrained VGG-19 to extract contxtual embeddings. 
 
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+- [Git](https://git-scm.com)
+- [Python](https://www.python.org/downloads/) and [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) (optional)
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/NUS-HPC-AI-Lab/Neural-Network-Diffusion.git
+   
 ## Visual results
 
 ![image](https://github.com/Retinal-Research/Contextual-OT/assets/58003228/35fea2ab-2701-46c9-b149-96b6b0151957)
