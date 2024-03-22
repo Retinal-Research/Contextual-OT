@@ -33,6 +33,8 @@ To get a local copy up and running follow these simple steps.
 
 ### Inference using Pre-trained weights
 
+The pre-trained weights can be downloaded from [here](https://drive.google.com/file/d/1XtSTq7dpvrllmEQOTKM0Vnbzx5Vt-19w/view?usp=sharing). Download the weights into ./Experiment/ in the current directory. Also verify the path to weights in test.py script. Post making the changes, you can run test.py to save the enhanced images in ./results folder.
+
 ### Training our model.  
 
 ## Visual results
