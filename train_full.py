@@ -353,7 +353,7 @@ def train(training_data_loader, G_optimizer, D_optimizer, model, discr, criterio
         #G_train_loss = - D_result.mean() + opt.sigma * mse_loss +  opt.lamda1 * G_identity +  opt.lamda2 *G_l
         # G_train_loss = - D_result.mean() + opt.sigma * mse_loss +  opt.lamda1* G_identity 
         # G_train_loss = - D_result.mean() +  opt.lamda1* G_identity + 50* G_contextual_s + 25* G_contextual_t
-        G_train_loss = - D_result.mean() + 50* G_contextual_t
+        G_train_loss = - D_result.mean() + 50* G_contextual_s
         Gloss.append(G_train_loss)
         G_train_loss.backward()
         G_optimizer.step()
