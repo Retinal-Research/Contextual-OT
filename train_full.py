@@ -149,15 +149,15 @@ def main():
 
         'HQ': T.Compose([
                 T.Resize((256,256)),
-                T.RandomHorizontalFlip(),
-                T.RandomVerticalFlip(),
+                #T.RandomHorizontalFlip(),
+                #T.RandomVerticalFlip(),
                 #T.RandomRotation((-180,180)),
                 T.ToTensor()
         ]),
         'LQ': T.Compose([
                 T.Resize((256,256)),
-                T.RandomHorizontalFlip(),
-                T.RandomVerticalFlip(),
+               # T.RandomHorizontalFlip(),
+                #T.RandomVerticalFlip(),
                 #T.RandomRotation((-180,180)),
                 T.ToTensor()
                 #T.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
